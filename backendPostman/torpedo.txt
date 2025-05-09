@@ -1,0 +1,8 @@
+>py manage.py makemigrations
+>py manage.py migrate
+>py manage.py check api
+>py manage.py runserver 0.0.0.0:80
+
+MODELO -> SERIALIZER -> VIEW 
+
+python manage.py createsuperuser

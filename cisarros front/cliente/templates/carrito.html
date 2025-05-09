@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cissaros</title>
+    <!-- Font Icons -->
+    <link media="all" rel="stylesheet" href="/static/css/fonts/icomoon/icomoon.css">
+<!--     <link media="all" rel="stylesheet" href="/static/css/fonts/roxine-font-icon/roxine-font.css"> -->
+    <link media="all" rel="stylesheet" href="/static/vendors/font-awesome/css/font-awesome.css">
+    <!-- Vendors -->
+    <link media="all" rel="stylesheet" href="/static/vendors/owl-carousel/dist/assets/owl.carousel.min.css">
+    <link media="all" rel="stylesheet" href="/static/vendors/owl-carousel/dist/assets/owl.theme.default.min.css">
+    <link media="all" rel="stylesheet" href="/static/vendors/animate/animate.css">
+    <link media="all" rel="stylesheet" href="/static/vendors/rateyo/jquery.rateyo.css">
+    <link media="all" rel="stylesheet" href="/static/vendors/bootstrap-datepicker/css/bootstrap-datepicker.css">
+    <link media="all" rel="stylesheet" href="/static/vendors/fancyBox/source/jquery.fancybox.css">
+    <link media="all" rel="stylesheet" href="/static/vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.css">
+    <!-- Bootstrap 4 -->
+    <link media="all" rel="stylesheet" href="/static/css/bootstrap.css">
+    <!-- Rev Slider -->
+    <link rel="stylesheet" type="text/css" href="/static/vendors/rev-slider/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="/static/vendors/rev-slider/revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="/static/vendors/rev-slider/revolution/css/navigation.css">
+    <!-- Theme CSS -->
+    <link media="all" rel="stylesheet" href="/static/css/main.css">
+    <!-- Custom CSS -->
+    <link media="all" rel="stylesheet" href="/static/css/custom.css">
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+
+</head>
+<body>
+
+  <header class="fixed-top main-header header-white transparent with-side-panel-ico sticky-nav" id="waituk-main-header">
+    <div id="nav-section">
+        <div class="bottom-header container-fluid mega-menus" id="mega-menus">
+            <nav class="navbar navbar-toggleable-md no-border-radius no-margin mega-menu-multiple" id="navbar-inner-container">
+                <form action="mega-menu-5.html" id="top-search" class="no-margin top-search">
+                    <div class="form-group no-margin">
+                        <input class="form-control no-border" id="search_term" name="search_term" placeholder="Type & Press Enter" type="text">
+                    </div>
+                </form>
+                <button type="button" class="navbar-toggler navbar-toggler-left" data-toggle="collapse" data-target="#mega-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto m-sm-auto" href="/cliente/home/"> <img src="/static/img/logocissarros.png" alt="roxine"> <img src="/static/img/logocissarros.png" alt="roxine"> </a>
+                <div class="collapse navbar-collapse flex-row-reverse" id="mega-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown" data-animation="fadeIn">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="/cliente/home/" data-title="Home"> Herramientas De Usuario </a>
+                            <ul class="dropdown-menu  no-border-radius">
+
+                                <li class="dropdown dropdown-right dropdown-parent">
+                                    <a href="#" class="sub-marker"> Perfiles de Usuario <i class="icon-ios-more icn-right"></i></a>
+                                    <ul class="dropdown-menu dropdown-menu-indent-sm no-border-radius">
+                                        <li><a href="/cliente/login/"> Iniciar Sesion </a></li>
+                                        <li><a href="/cliente/registro/"> Registrarse </a></li>
+                                        <li><a href="/cliente/contraolvi/"> Olvidaste tu Contraseña? </a></li>
+                                        <li><a href="/cliente/contranueva/"> Cambiar Contraseña </a></li>
+                                        <li><a href="confirm-email.html"> Inicio Colaborador </a></li>
+                                        <li><a href="/cliente/regisexito/"> Registrado con Exito </a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="dropdown dropdown-right dropdown-parent">
+                                    <a href="#" class="sub-marker"> Site Search <i class="icon-ios-more icn-right"></i></a>
+                                    <ul class="dropdown-menu dropdown-menu-indent-sm no-border-radius">
+                                        <li><a href="features-header-search.html"> Header Search </a></li>
+                                        <li><a href="features-transparent-bg-search.html"> Transparent BG </a></li>
+                                        <li><a href="features-light-bg-search.html"> Light BG </a></li>
+                                        <li><a href="features-dark-bg-search.html"> Dark BG </a></li>
+                                        <li><a href="features-colored-bg-search.html"> Colored BG </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown right-dropdown" data-animation="fadeIn">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="/cliente/home/" data-title="Home"> Productos </a>
+                            <ul class="dropdown-menu no-border-radius">
+                                <li><a href="/cliente/productos/"> Catalogo </a></li>
+                                <li><a href="/cliente/crearprod/"> Crear Productos </a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/cliente/contacto/"> Contacto </a>
+                        </li>
+                        <li>
+                            <a href="/cliente/nosotros/"> Nosotros </a>
+                        </li>
+
+                        <li class="dropdown cart-list margin-0-sm">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);"><span class="hidden-lg-up"> Carrito de compras </span><i class="custom-icon-cart m-marker"></i></a>
+                            <div class="dropdown-menu-container">
+                                <div class="dropdown-menu no-border-radius col-lg-1 col-md-4 col-sm-4">
+                                    <h4> Carrito de compras</h4>
+                                    <ul class="s-list no-padding">
+                                        <li class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-5 col">
+                                                <div class="img">
+                                                    <a href="#"><img src="/static/img/produno.png" alt="image description"></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-7 col">
+                                                <h6> <a href="#"><strong>Producto 1 </strong></a><span class="text-muted float-right"> x 1 </span></h6>
+                                                <h6> $3900 </h6>
+                                            </div>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-5 col">
+                                                <div class="img">
+                                                    <a href="#"><img src="/static/img/cisarros2.png" alt="image description"></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-7 col">
+                                                <h6> <a href="#"><strong>Producto 2 </strong></a><span class="text-muted float-right"> x 2 </span></h6>
+                                                <h6> $8800 </h6>
+                                            </div>
+                                        </li>
+                                        <li class="divider margin-bottom-1"></li>
+                                        <li class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-5 col">
+                                                <h2> Total </h2>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-7 col">
+                                                <h2 class="text-right"> $12700 </h2>
+                                            </div>
+                                        </li>
+                                        <li><a href="/cliente/carrito/" class="btn btn-sm btn-block btn-secondary btn-mina btn-mina-rip-br"> Ver carrito </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-pos-search with-side-panel">
+                    
+                    <a href="#" class="x-search icon-close-round navbar-link"><i class="icon-line-cross"></i></a>
+                </div>
+                <div class="nav-trigger navbar-pos-search overlay-trigger">
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<h2>Carrito</h2>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Dirección de Factura</h3>
+            <label for="fname"><i class="fa fa-user"></i> Nombre completo</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Direccion</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> Ciudad</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">Region</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Codigo postal</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Metodo de pago</h3>
+            <label for="fname">Tarjetas aceptadas</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Nombre de la tarjeta</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Numero de la tarjeta</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Mes de vencimiento</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Año de vencimiento</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Usar esta Dirección para el envio
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn btn-primary has-radius-small">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4> Carrito <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+      <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+      <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+      <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+      <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
