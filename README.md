@@ -2,6 +2,7 @@
 
 Este proyecto es un sistema de ventas completo orientado para cigarrillos, realizado a lo largo de dos meses como proyecto evaluativo.
 
+
 ## Requisitos
 
 - Python 3.10+
